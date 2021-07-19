@@ -1,14 +1,12 @@
 {
     "name": "api",
     "version": "1.0.0",
-    "description": "",
+    "description": "azure functions",
     "scripts": {
+        "prestart": "func extensions install",
         "start": "func start",
         "test": "echo \"No tests yet...\""
     },
-    "dependencies": {
-        "axios": "^0.21.1",
-        "vue": "^2.6.14"
-    },
+    "dependencies": {},
     "devDependencies": {}
 }
